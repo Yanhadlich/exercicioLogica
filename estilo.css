@@ -1,0 +1,116 @@
+body {
+    background-color: lavender;
+}
+div.linha {
+    display: flex;
+}
+
+div.bloco1 {
+    height: auto;
+    position: relative;
+    background-image: linear-gradient( rgb(165, 171, 230), rgb(196, 200, 237)) ;
+    margin-top: 0;
+    width: 50%;
+    padding-bottom: 20%;  
+    border-left: 1px solid #293581;
+}
+
+div.bloco2 {
+    height: auto;
+    position: relative;
+    background-image: linear-gradient(rgb(165, 171, 230), rgb(196, 200, 237));
+    margin-top: 0;
+    width: 50%;
+    padding-bottom: 20%; 
+}
+.bloco2 h2{
+    text-align: center;
+}
+.imgGeral{
+    margin-left: 25%;
+} 
+
+div.bloco1 form {
+    margin: 10%;
+    display:initial;
+    left: 50%;
+    text-align: center;
+}
+
+ .mensagemDeErroResultado {
+    text-align: center;
+}
+
+.radio{
+    margin-left: 40%;
+    text-align: center;
+
+}
+
+.btnEnviar{
+    background-image: linear-gradient(rgb(165, 171, 230), rgb(196, 200, 237));
+    border: 1px solid #293581;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: rgb(17, 26, 93);
+    cursor: pointer;
+    direction: ltr;
+    display: flex;
+
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.27059;
+    min-width: 30px;
+    overflow: visible;
+    padding: 4px 5rem;
+    text-align: center;
+
+}
+
+.btnEnviar:hover{
+    background-image: linear-gradient( rgb(196, 200, 237), rgb(165, 171, 230) ) ;
+}
+
+.pEnviar{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+div.btns {
+    display: flex;
+    justify-content:space-around;
+    background: rgb(17, 26, 93);
+}
+
+.btn1{
+    background-image: linear-gradient(rgb(165, 171, 230), rgb(196, 200, 237));
+    border: 1px solid #293581;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: rgb(17, 26, 93);
+    cursor: pointer;
+    direction: ltr;
+    display: block;
+
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.47059;
+    min-width: 30px;
+    overflow: visible;
+    padding: 4px 15px;
+    text-align: center;
+
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+.btn1:hover{
+   background-image: linear-gradient( rgb(196, 200, 237), rgb(165, 171, 230) ) ;
+}
+
+
